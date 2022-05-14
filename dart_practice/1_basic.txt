@@ -1,0 +1,39 @@
+void main() {
+  //주석
+  /*
+   * 이것도 주석
+   **/
+  
+  //출력은 print 사용
+  
+  // 변수 만들때에는 var 또는 앞에 자료형 지정
+  var name = "Hello World";
+  var age = 1;
+  
+  String name = "dasd";
+  
+  //final은 런타임에서 값 지정
+  // const는 컴파일에서 자료형 지정 -> 선언시 값 할당
+  // 둘다 값 수정은 불가능
+  final String name = "adasd";
+  const String age;
+  
+  //assets는 인자로 받은 값이 거짓이면 에러
+  //assets(1 != 1) // 에러
+  
+  
+  // 자료형 -> is 연산자 사용
+  int a = 10;
+  a is int;  // 참
+  
+  //is!는 해당 자료형이 아니다.
+  
+  //형변환 -> as연산자 사용
+  double d = 10.3;
+  
+  //num 자료형은 숫자 자료형이 상속받는 부모 클래스
+    
+  
+  
+  
+}
